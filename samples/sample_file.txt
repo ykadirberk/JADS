@@ -1,0 +1,29 @@
+ex_string its value
+ex_string2 "value of second one"
+ex_int -250
+ex_float 15.35
+ex_double 653.24687
+ex_character h
+ex_boolean true
+ex_class {
+	ex_member_string "Hello World"
+	ex_member_int "156"
+	ex_member_class {
+		member_of_member "Some String."
+		array [
+			value1
+			value2
+			15
+			25
+			[
+				value1
+			]
+			35.4
+			true
+			{
+				member_of_array -123
+				member_of_array_78 value78
+			}
+		]
+	}
+}
